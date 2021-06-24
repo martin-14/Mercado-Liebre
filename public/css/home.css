@@ -1,0 +1,106 @@
+/* header */
+header{
+    background-color: var(--color-amarillo);
+
+}
+
+header img{
+    width: 185px;
+    height: 33px; 
+    margin-top: 30px;;
+}
+
+header .buscador{
+    margin-left: 20px;
+
+}
+header .buscador .buscar{
+    width: 170px;
+}
+
+header .buscador button{
+    display: block;
+}
+
+header p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+}
+header nav ul{
+    margin-top: 20px;
+    line-height: 14px;
+}
+header nav ul a{
+    color: black;
+    font-size: 12px;
+}
+
+.burger-menu{
+    text-align: center;
+    padding: 16px 2px;
+    border: none;
+}
+
+header .burger-menu .fas{
+    color: white;
+    background-color: var(--color-celeste);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+/* main */
+main{
+    background-color: var(--color-gris-claro);
+    padding-bottom: 10px;
+}
+main .banner{
+    width: 380px;
+}
+main section article img{
+    width: 300px; 
+}
+main section h3{
+    font-size: 24px;
+}
+main section article p{
+    font-size: 18px;
+}
+main article span{
+    font-size: 16px;
+    color: var(--color-verde);
+}
+main article h4{
+    font-size: 16px;
+}
+
+/* footer */
+
+footer{
+    background-color: white;
+    text-align: center;
+    color: var(--color-gris-oscuro);
+
+}
+
+footer section .fas{
+    font-size: 2em;
+    color: var(--color-celeste);
+    padding: 60px 0 10px ;
+}
+footer section h4{
+    font-size: 18px;
+    padding: 0 40px;
+
+}
+footer section p{
+    font-size: 12px;
+    padding: 0 40px;
+}
+.copy {
+    font-size: 12px;
+    text-align: left;
+    padding: 60px 0 30px 10px ;
+    color: var(--color-gris-oscuro);
+}
